@@ -1,0 +1,47 @@
+html {
+    box-sizing: border-box;
+    background-color: coral;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+  /* header section */
+  h1 {
+      text-align: center;
+  }
+
+  header {
+    text-align: center;
+    width: 100%;
+  }
+
+  header .img {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+  }
+
+  header ul {
+    list-style: none;
+  }
+  
+  /* trips section */
+
+  .trips img {
+    width: 98%;
+  }
+
+  /* join us section */
+  .join-us {
+    background-color: dodgerblue;
+    bottom: 0;
+    width: 98%;
+  }
+
+  .join-us ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
