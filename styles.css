@@ -20,7 +20,6 @@ html {
     color: beige;
   }
 
-
   header {
     text-align: center;
     width: 98%;
@@ -55,6 +54,7 @@ html {
 .about-us ul:hover {
   color: beige;
 }
+
 /* volunteers section */
 
  .vol-pics {
@@ -73,6 +73,7 @@ html {
  .vols li:hover {
     color: beige;
  }
+
   /* trips section */
 
   .trips img {
@@ -93,6 +94,7 @@ html {
   }
 
   /* join us section */
+ 
   .join-us {
     background-color: dodgerblue;
     bottom: 0;
@@ -125,6 +127,5 @@ html {
     .join-us ul {
       display: block;
       width: 98%;
-    }
-    
+    } 
   }
