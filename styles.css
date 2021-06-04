@@ -1,6 +1,7 @@
 html {
     box-sizing: border-box;
     background-color: coral;
+    line-height: 2em;
   }
   *,
   *:before,
@@ -11,27 +12,84 @@ html {
   /* header section */
   h1 {
       text-align: center;
+      color: beige;
+      font-size: 3.5em;
   }
+
+  h2 { 
+    color: beige;
+  }
+
 
   header {
     text-align: center;
-    width: 100%;
+    width: 98%;
   }
 
   header .img {
     display: flex;
     text-align: center;
     justify-content: space-evenly;
+    background-color:  dodgerblue;
+    width: 98%;
   }
 
   header ul {
     list-style: none;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
   }
-  
+
+  header a:hover{
+  text-decoration: none;
+}
+
+/* about us section */
+
+.about-us ul {
+   text-align: justify;
+   width: 98%;
+}
+.about-us ul:hover {
+  color: beige;
+}
+/* volunteers section */
+
+ .vol-pics {
+  display: flex;
+  text-align: center;
+  width: 98%;
+  justify-content: space-around;
+  background-color: dodgerblue;
+ }
+
+ .vols ul {
+  list-style: none;
+  text-align: center;
+ }
+
+ .vols li:hover {
+    color: beige;
+ }
   /* trips section */
 
   .trips img {
     width: 98%;
+  }
+
+  .trips ul {
+    text-align: center;
+    list-style: none;
+  }
+
+  .trips button {
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: beige;
+    font-size: .75em;
   }
 
   /* join us section */
@@ -43,5 +101,30 @@ html {
 
   .join-us ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+  }
+
+  @media only screen and (max-width: 600px) {
+    header .img {
+      display: inline-block;
+    }
+    .vol-pics {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .vol-pics img {
+      display: inline-block;
+      width: 98%;
+      text-align: center;
+    }
+    .about-us ul {
+      text-align: center;
+    }
+    
+    .join-us ul {
+      display: block;
+      width: 98%;
+    }
+    
   }
